@@ -1,14 +1,24 @@
-# Introduciton
+# Introduction
 
 This repository provides MAVRL's guidelines and templates for the writing of academic journal articles.
 
+# A little bit of sermonizing
+
+Before we begin, I should outline my philosophy and attitude towards the writing process. An academic article is the primary means through which you communicate your scientific results and ideas. The key to great scientific writing is logic flow, not language (though having a good command of English helps). Indeed, simple sentence structures often aid in the communication of complex ideas. 
+
+The logic of your article will be debated extensively during the writing process. This is where many logic gaps are exposed, often requiring further work to address. It is also a process in which you should feel free to argue with your co-authors (including your advisor) on the interpretation and flow.
+
+Finally, writing, like all other components of your PhD/postdoc training, is an opporunity for learning a highly useful professional skill. The best students/postdocs are the ones who demonstrate a growth mindset for continuous improvement. For example, someone lacking in a growth mindset will simply click "Accept all changes"; someone that wishes to do better next time will review each change carefully, and perhaps even take the initiative to further improve on the changes that the advisor/other co-authors have made. 
+
+It has been my experience that good writing is correlated with scientific ability. Anyone with motivation and clear thinking can become a good scientific writer. Anyone lacking either of those traits is not going to be a good scientist, no matter how good his language skills are.
+
 # Preliminaries
 
-Before writing, please do the following:
+These steps should be taken before any writing occurs:
 
-* Discuss target journal(s) with your co-authors (especially your advisor).
+* Discuss target journal(s) with your co-authors (especially your advisor). Journal impact factor (IF) should be a distant secondary consideration to appropriateness of journal. Excellent research published in an appropriate, reasonable IF journal will be read and cited more than in an inappropriate high-IF journal.
 * Agree on an author list, especially who will be the first authors and corresponding authors. Though this list may change as writing (and further results) progresses, early discussions avoid potential disputes down the road.
-* All co-authors are expected to contribute to the organization and drafting of an article. If your name appears anywhere on the author list, you should make sure this is an article that you will be proud of being associated with. Your responsibilities include both high-level input on content as well as more mundane things like proof-reading. If your advisor are doing all these things, you are expected to do the same even if you are not first author.
+* All co-authors are expected to contribute to the organization and drafting of an article. If your name appears anywhere on the author list, you should make sure this is an article that you will be proud of being associated with. Your responsibilities include both high-level input on content, interpretation of results, as well as more mundane things like proof-reading. 
 * All language settings should be standard English. Ensure this is the case if you are using Word. Indeed, English should be the setting for your office computer regardless of what your native language is. Any non-English font appearing on any document/presentation is unacceptable.
 * Read previous articles to learn proper scientific writing style and article organization.
 
@@ -22,11 +32,11 @@ Before writing, please do the following:
 * Use journal-provided templates if available.
 * If none are provided by the journal, two default templates (one for LaTeX and one for Word) preferred by Shyue Ping have been provided. These are based on achemso, and a very simple Word style. Do not use default templates provided by Word.
 * All section headers should be properly styled. In LaTeX, this involves the use of the \section, \subsection, etc. commands. In Word, this means formatting the section headers with the Heading 1, Heading 2, etc. styles. 
-* All figure/table captions and references must be cross-referenced. In Latex, this means you use the \ref{} command for figures and \cite{} for references. In Word, this means you use the Insert Cross Reference command in referencing your figures in the text and Mendeley -> Insert citation for references. Learn to use these properly so that you do not spend unnecessary time renumbering figures and references when edits are made.
+* All figure/table captions and references must be cross-referenced. In Latex, this means you use the \ref{} command for figures and \cite{} or \citenum{} for references. In Word, this means you use the Insert Cross Reference command in referencing your figures in the text and Mendeley -> Insert citation for references. Learn to use these properly so that you do not spend unnecessary time renumbering figures and references during writing.
 
 # Figures
 
-Plots and figures are usually the most important part of your paper/presentation. Many readers will first look at them to get a quick sense of what your key results are. You need to spend a lot of time making sure the data is presented in a logical and legible manner.
+Plots and figures are typically the most important part of your article. Many readers will first look at them to get a quick sense of what your key results are. You need to spend a lot of time making sure the data is presented in a logical and legible manner.
 
 * All plots must have large, legible fonts. For presentations, imagine you are in a huge ballroom in a conference where the famous 60-year-old professor who may be sitting on your hiring committee is sitting at least 50m away from your projected presentation. If he can't read the plot without difficulty, you have failed.
 * Note that the default line widths, marker sizes and fonts in most graphic software are usually unacceptably small. Remember that in papers, the editor is going to scale your graphic into a < 5cm x 5cm in a typical two-column journal. Font sizes typically need to be > 20 and lines need to be at least > 3 weight.
@@ -66,6 +76,8 @@ Proper scientific writing is expected. Refer to the Style Guide folder for some 
 * All drafts should be prepared with single column and at least a line spacing of 1, with lots of white space on the margin for Shyue Ping to write comments. If you are using Latex, setting the document type to "preprint" usually does the trick.
 * All figures, tables and other floats should be inserted inline with the text close to where they are mentioned in the text. Do not bother with sizing your images to wrap around text while you are writing. The publishers do that for you. 
 
+During the drafting process, Prof Ong will make extensive use of tracked changes and comments (for LaTeX, this is done via ShareLatex's system). 
+
 An academic paper generally comprises the following sections:
 
 * **Abstract**. Highlight the key results and accomplishments of this work. This needs to be self-contained, such that if the reader can immediately decide if the rest of your article is deserving of further attention.
@@ -75,4 +87,8 @@ An academic paper generally comprises the following sections:
 * **Discussion**. This section is non-optional and you are not allowed to combine Results and Discussion. The Discussion section is where you really go into the implications of your findings. What does your results mean for the field? Have you provided some fundamental insight into a scientific process? A good Discussion section is the difference between a mediocre paper and an insightful article.
 * **Conclusion**. A brief summary of your findings and the implications, i.e., a summary of your results and discussion.
 * **End matter**. Acknowledge all funding sources and computing resources used. It is *imperative* that you get this correct. 
+
+## Finalization
+
+In this last step, you proof-read the entire paper for spelling and grammatical errors, ensure that all figures, tables, captions, etc. conform to the target journal requirements. You also draft a Cover Letter for submission.
 
