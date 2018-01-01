@@ -16,7 +16,7 @@ It has been my experience that good writing is correlated with scientific abilit
 
 These steps should be taken before any writing occurs:
 
-* Discuss target journal(s) with your co-authors (especially your advisor). Journal impact factor (IF) should be a distant secondary consideration to appropriateness of journal. Excellent research published in an appropriate, reasonable IF journal will be read and cited more than in an inappropriate high-IF journal.
+* Discuss target journal(s) with your co-authors (especially your advisor). Journal impact factor (IF) should be a distant secondary consideration to appropriateness of journal. Excellent research published in an appropriate, reasonable IF journal will be read and cited more than in an inappropriate, high-IF journal.
 * Agree on an author list, especially who will be the first author(s) and corresponding author(s). Though this list may change as writing (and further results) progresses, early discussions help avoid disputes down the road.
 * All co-authors are expected to contribute to the organization and drafting of an article. If your name appears anywhere on the author list, you should make sure this is an article that you will be proud of being associated with. Your responsibilities include both high-level input on content, interpretation of results, as well as more mundane things like proof-reading.
 * All language settings should be standard English. Ensure this is the case if you are using Word. Indeed, English should be the setting for your office computer regardless of what your native language is. Any non-English font appearing on any document/presentation is unacceptable.
@@ -30,13 +30,13 @@ If we are providing input to an article led by another group, you should follow 
 
 # Software
 
-* Only LaTeX or Microsoft Word are the only acceptable choices for word processors. In general, LaTeX (via ShareLatex) is preferred unless the target journal explicitly indicates Word is preferred. When in doubt, discuss with your advisor.
+* LaTeX or Microsoft Word are the only acceptable choices for word processors. In general, LaTeX (via ShareLatex) is preferred unless the target journal explicitly indicates Word is preferred. When in doubt, discuss with your advisor.
 * All references must be managed via Mendeley. A new shared collection/subfolder should be created for each paper. All co-authors should have access to this shared collection/folder. This shared collection/folder should contain all literature (with PDFs) relevant to the paper.
 
 # Templates and General Instructions
 
 * Use journal-provided templates if available.
-* If none are provided by the journal, two default templates (one for LaTeX and one for Word) preferred by Shyue Ping have been provided. These are based on achemso, and a very simple Word style. Do not use default templates provided by Word.
+* If none are provided by the journal, two default templates (one for LaTeX and one for Word) have been provided in this repository. These are based on achemso, and a very simple Word style. Do not use default templates provided by Word.
 * All section headers should be properly styled. In LaTeX, this involves the use of the \section, \subsection, etc. commands. In Word, this means formatting the section headers with the Heading 1, Heading 2, etc. styles.
 * All figure/table captions and references must be cross-referenced. In Latex, this means you use the \ref{} command for figures and \cite{} or \citenum{} for references. In Word, this means you use the Insert Cross Reference command in referencing your figures in the text and Mendeley -> Insert citation for references. Learn to use these properly so that you do not spend unnecessary time renumbering figures and references during writing.
 
